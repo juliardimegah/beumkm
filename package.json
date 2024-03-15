@@ -1,0 +1,34 @@
+{
+  "name": "beumkm",
+  "version": "1.0.0",
+  "description": "Backend untuk aplikasi umkm kota bandung",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliardimegah/beumkm.git"
+  },
+  "keywords": [
+    "backend"
+  ],
+  "author": "Megah Juliardi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juliardimegah/beumkm/issues"
+  },
+  "homepage": "https://github.com/juliardimegah/beumkm#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.3",
+    "mongodb": "^6.5.0",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.28",
+    "typescript": "^5.4.2"
+  }
+}

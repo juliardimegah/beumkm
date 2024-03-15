@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "esModuleInterop": true,
+        "target": "ES6",
+        "moduleResolution": "Node",
+        "removeComments": true,
+        "sourceMap": false,
+
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "resolveJsonModule": true,
+
+        "skipLibCheck": true,
+        "allowJs": true,
+        // "checkJs": true
+
+        "strict": false,
+    },
+    "include": ["src"],
+    "exclude": ["node_modules", "dist/*", "src/static"],
+    "lib": ["ES6"]
+}
